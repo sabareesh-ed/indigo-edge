@@ -1,0 +1,8 @@
+/src/*
+  Access-Control-Allow-Origin: *
+
+/*
+  Access-Control-Allow-Origin: *
+
+/assets/*
+  Access-Control-Allow-Origin: *
