@@ -248,12 +248,11 @@ gsap.to(".team_wrap", {
 });
 
 if (window.innerWidth > 768) {
-    // Animate .footer-image
     gsap.to(".footer-image", {
       height: "100vh",
       width: "100vw",
-      duration: 1.5, // Increased duration for a more gradual transition
-      ease: "power2.inOut", // Smooth easing function
+      duration: 1.5,
+      ease: "power2.inOut",
       scrollTrigger: {
         trigger: ".footer",
         start: "top 1%",
@@ -263,13 +262,12 @@ if (window.innerWidth > 768) {
         toggleActions: "play none none reverse",
       },
     });
-    
+
   
-    // Change text color of .footer-heading
     gsap.to(".footer-heading", {
-      color: "white", // Change text color to white
-      duration: 1.5, // Increased duration for a more gradual transition
-      ease: "power2.inOut", // Smooth easing function
+      color: "white",
+      duration: 1.5,
+      ease: "power2.inOut",
       scrollTrigger: {
         trigger: ".footer",
         start: "top 1%",
