@@ -26,7 +26,7 @@ export default defineConfig({
           jquery: '$',
         },
       },
-      external: ['jquery', 'three'],
+      external: ['jquery', 'three', 'three/examples/jsm/loaders/GLTFLoader.js'],
     },
   },
 })
