@@ -12,6 +12,9 @@ export default defineConfig({
       protocol: 'ws',
     },
   },
+  optimizeDeps: {
+    include: ['three']
+  },
   build: {
     minify: false,
     manifest: true,
