@@ -263,6 +263,7 @@ if (window.innerWidth > 768) {
         toggleActions: "play none none reverse",
       },
     });
+    
   
     // Change text color of .footer-heading
     gsap.to(".footer-heading", {
